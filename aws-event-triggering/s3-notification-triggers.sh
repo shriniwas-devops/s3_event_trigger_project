@@ -62,7 +62,7 @@ aws lambda create-function \
   --handler "s3-lambda-function/s3-lambda-function.lambda_handler" \
   --memory-size 128 \
   --timeout 30 \
-  --role "arn:aws:iam::$aws_account_id:role/$role_name" \
+  --role "arn:aws:iam::733796618401:role/$role_name" \
   --zip-file "fileb://./s3-lambda-function.zip"
 
 # Add Permissions to S3 Bucket to invoke Lambda
